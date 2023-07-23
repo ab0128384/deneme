@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "60968E92A789D6CA929171437ACB54F5",
+  "keywordClasses": [
+    {
+      "name": "IgnoreUnknownProperties",
+      "keywordMethods": []
+    },
+    {
+      "name": "Project",
+      "keywordMethods": []
+    },
+    {
+      "name": "Team",
+      "keywordMethods": []
+    },
+    {
+      "name": "Organization",
+      "keywordMethods": []
+    },
+    {
+      "name": "KatalonHelper",
+      "keywordMethods": []
+    },
+    {
+      "name": "IgnoreUnknownProperties$Trait$Helper",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
