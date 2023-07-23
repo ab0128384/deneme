@@ -170,8 +170,10 @@ class KatalonHelper {
 		def request = builder
 				.withRestRequestMethod("GET")
 				.withRestUrl(url)
-				.withHttpHeaders([new TestObjectProperty(HEADER_AUTHORIZATION, ConditionType.EQUALS,
-					HEADER_VALUE_AUTHORIZATION_PREFIX +  token)])
+				.withHttpHeaders([
+					new TestObjectProperty(HEADER_AUTHORIZATION, ConditionType.EQUALS,
+					HEADER_VALUE_AUTHORIZATION_PREFIX +  token)
+				])
 				.build()
 		def response = ServiceRequestFactory.getInstance(request).send(request)
 
@@ -180,7 +182,10 @@ class KatalonHelper {
 		def projects = jsonSlurper.parseText(responseBody)
 		if(projects.size() > 0){
 			def firstProject = projects.get(0)
-			return [new Project(firstProject), new Team(firstProject.team)]
+			return [
+				new Project(firstProject),
+				new Team(firstProject.team)
+			]
 		} else {
 			return [null, null]
 		}
@@ -206,6 +211,4 @@ class KatalonHelper {
 			return project != null
 		}
 	}
-
- 
 }
