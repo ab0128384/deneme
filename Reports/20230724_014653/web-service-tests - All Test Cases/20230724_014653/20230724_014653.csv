@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+web-service-tests - All Test Cases,,,,2023-07-24 01:46:55,2023-07-24 01:47:00,"5,090s",PASSED
+,,,,,,,
+Test Cases/Create a new user,,,,2023-07-24 01:46:55,2023-07-24 01:46:58,"2,819s",PASSED
+"sample.Common.createNewUser(age, username, password, gender, 200)",,,,2023-07-24 01:46:55,2023-07-24 01:46:58,"2,446s",PASSED
+,,,,,,,
+Test Cases/Find user by ID,,,,2023-07-24 01:46:58,2023-07-24 01:47:00,"2,045s",PASSED
+"id = sample.Common.createNewUser(age, username, password, gender, 200)",,,,2023-07-24 01:46:58,2023-07-24 01:46:59,"0,903s",PASSED
+"sample.Common.findUserById(id, age, username, password, gender, 200)",,,,2023-07-24 01:46:59,2023-07-24 01:47:00,"0,888s",PASSED

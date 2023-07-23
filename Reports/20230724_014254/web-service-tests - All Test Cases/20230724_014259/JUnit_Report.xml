@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="web-service-tests - All Test Cases" time="11.135" tests="2" failures="0" errors="0">
+   <testsuite name="web-service-tests - All Test Cases" tests="2" failures="0" errors="0" time="11.135" skipped="0" timestamp="2023-07-24 01:43:04" hostname="Virgosol - DESKTOP-B5ETTA9" id="Test Suites/web-service-tests - All Test Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Virgosol\\git\\deneme\\Reports\\20230724_014254\\web-service-tests - All Test Cases\\20230724_014259"/>
+         <property name="logFiles" value="C:\\Users\\Virgosol\\git\\deneme\\Reports\\20230724_014254\\web-service-tests - All Test Cases\\20230724_014259\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Virgosol - DESKTOP-B5ETTA9"/>
+         <property name="hostAddress" value="192.168.1.102"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Create a new user" time="6.893" classname="Test Cases/Create a new user" status="PASSED">
+         <system-out><![CDATA[2023-07-24 01:43:05 - [TEST_CASE][PASSED] - Test Cases/Create a new user: Test Cases/Create a new user
+
+2023-07-24 01:43:06 - [TEST_STEP][PASSED] - sample.Common.createNewUser(age, username, password, gender, 200): sample.Common.createNewUser is PASSED
+
+2023-07-24 01:43:10 - [MESSAGE][INFO] - HAR: C:\Users\Virgosol\git\deneme\Reports\20230724_014254\web-service-tests - All Test Cases\20230724_014259\requests\main\0.har
+
+2023-07-24 01:43:10 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-07-24 01:43:11 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-07-24 01:43:11 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-07-24 01:43:11 - [TEST_STEP][PASSED] - assert response.getStatusCode() == 200: null
+
+2023-07-24 01:43:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "age", 25): Verify element property value successfully
+
+2023-07-24 01:43:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-07-24 01:43:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "username", "mimi"): Verify element property value successfully
+
+2023-07-24 01:43:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-07-24 01:43:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "password", "123456789"): Verify element property value successfully
+
+2023-07-24 01:43:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-07-24 01:43:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "gender", "MALE"): Verify element property value successfully
+
+2023-07-24 01:43:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-07-24 01:43:12 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-07-24 01:43:12 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-07-24 01:43:12 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2023-07-24 01:43:12 - [MESSAGE][PASSED] - sample.Common.createNewUser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Find user by ID" time="3.742" classname="Test Cases/Find user by ID" status="PASSED">
+         <system-out><![CDATA[2023-07-24 01:43:12 - [TEST_CASE][PASSED] - Test Cases/Find user by ID: Test Cases/Find user by ID
+
+2023-07-24 01:43:13 - [TEST_STEP][PASSED] - id = sample.Common.createNewUser(age, username, password, gender, 200): sample.Common.createNewUser is PASSED
+
+2023-07-24 01:43:14 - [MESSAGE][INFO] - HAR: C:\Users\Virgosol\git\deneme\Reports\20230724_014254\web-service-tests - All Test Cases\20230724_014259\requests\main\1.har
+
+2023-07-24 01:43:14 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-07-24 01:43:14 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-07-24 01:43:14 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-07-24 01:43:14 - [TEST_STEP][PASSED] - assert response.getStatusCode() == 200: null
+
+2023-07-24 01:43:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "age", 25): Verify element property value successfully
+
+2023-07-24 01:43:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-07-24 01:43:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "username", "mimi"): Verify element property value successfully
+
+2023-07-24 01:43:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-07-24 01:43:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "password", "123456789"): Verify element property value successfully
+
+2023-07-24 01:43:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-07-24 01:43:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "gender", "MALE"): Verify element property value successfully
+
+2023-07-24 01:43:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-07-24 01:43:14 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-07-24 01:43:14 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-07-24 01:43:14 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2023-07-24 01:43:14 - [MESSAGE][PASSED] - sample.Common.createNewUser is PASSED
+
+2023-07-24 01:43:14 - [TEST_STEP][PASSED] - sample.Common.findUserById(id, age, username, password, gender, 200): sample.Common.findUserById is PASSED
+
+2023-07-24 01:43:15 - [MESSAGE][INFO] - HAR: C:\Users\Virgosol\git\deneme\Reports\20230724_014254\web-service-tests - All Test Cases\20230724_014259\requests\main\2.har
+
+2023-07-24 01:43:15 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-07-24 01:43:15 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-07-24 01:43:15 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-07-24 01:43:15 - [TEST_STEP][PASSED] - assert response.getStatusCode() == 200: null
+
+2023-07-24 01:43:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "age", 25): Verify element property value successfully
+
+2023-07-24 01:43:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-07-24 01:43:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "username", "mimi"): Verify element property value successfully
+
+2023-07-24 01:43:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-07-24 01:43:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "password", "123456789"): Verify element property value successfully
+
+2023-07-24 01:43:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-07-24 01:43:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "gender", "MALE"): Verify element property value successfully
+
+2023-07-24 01:43:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-07-24 01:43:16 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-07-24 01:43:16 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-07-24 01:43:16 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2023-07-24 01:43:16 - [MESSAGE][PASSED] - sample.Common.findUserById is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-24 01:43:04 - [TEST_SUITE][PASSED] - web-service-tests - All Test Cases: Test Cases/Find user by ID]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
